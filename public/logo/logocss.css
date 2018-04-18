@@ -1,0 +1,47 @@
+.withImageAndIcon {
+	font-weight: bold;
+}
+
+.withImageAndIcon > div {
+	vertical-align: middle;
+	display:inline-block;
+	margin-right: 0.2em;
+}
+
+.withImageAndIcon > div > i {
+	float: right;
+	line-height:72px;
+	height: 10px;
+	/*color: green;
+	text-shadow: 2px 2px 0 rgba(255,255,255,1), -2px 2px 0 rgba(255,255,255,1),2px -2px 0 rgba(255,255,255,1), -2px -2px 0 rgba(255,255,255,1);*/
+}
+
+
+.withFolder32 {
+	line-height: 32px;
+	width: 32px;
+	height: 32px;
+	/*background: transparent url("http://icons-search.com/img/fasticon/Sweet_System_lnx.zip/Sweet_System_lnx-Icons-32X32-folder.png-32x32.png") no-repeat;*/
+}
+
+.withFolder32 i {
+	line-height:48px !important;
+	margin-top: -20%;
+
+}
+input{
+	position: absolute;
+	top: 0;
+	width: 92%;
+	opacity: 0;
+	-ms-filter: 'alpha(opacity=0)';
+	font-size: 32px !important;
+	direction: ltr;
+	cursor: pointer;
+}
+.container{
+	width: 100%;
+}
+.highlight{
+		display: block;
+	}
